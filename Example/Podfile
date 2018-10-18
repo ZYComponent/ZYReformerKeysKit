@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZYReformerKeysKit_Example' do
+  pod 'ZYReformerKeysKit', :path => '../'
+
+  target 'ZYReformerKeysKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
