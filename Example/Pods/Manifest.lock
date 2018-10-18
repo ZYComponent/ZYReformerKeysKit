@@ -1,0 +1,16 @@
+PODS:
+  - ZYReformerKeysKit (0.1.0)
+
+DEPENDENCIES:
+  - ZYReformerKeysKit (from `../`)
+
+EXTERNAL SOURCES:
+  ZYReformerKeysKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZYReformerKeysKit: c94eb383c25bcdc5151794ab546331cc522df854
+
+PODFILE CHECKSUM: f92cfdf2acc5320275331b5ad14499b736068541
+
+COCOAPODS: 1.6.0.beta.1

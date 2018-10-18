@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A1CC5AE051FE83D5D442238BC84E025 /* ZYReformerKeysKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A17120F6D8AB6F5078BCEEBD16DA00B /* ZYReformerKeysKit-dummy.m */; };
+		25E8EB2121D42AE2FBC325C87A0E74E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2B60BC17038B64D69EC254F781C8F021 /* Pods-ZYReformerKeysKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25138A5D686BACF5C1D0987D72DE1EAF /* Pods-ZYReformerKeysKit_Example-dummy.m */; };
+		3CE4BA043DFAE84B9336F69072ED7E15 /* ZYReformerKeysKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2738A12F22B5ED57ABF45CC533B02080 /* ZYReformerKeysKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD61E6FF2D1439A5AD6E38E851BDCB0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3D762A12733F85EE63CE5F24FE358E /* ReplaceMe.m */; };
+		7435C1A278A3DBE0565CA5B6EF6C05E4 /* FFAuthorListReformerKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C44A4213C8D86CFED9F0A61BFF6DAB /* FFAuthorListReformerKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76354E67043DCCC714BD1B9BD0243064 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		78ED5F997E6217EFE95F67FA2ABBB5FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9435DEFFDC38D25FC4FC25D98B304CB8 /* Pods-ZYReformerKeysKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8877DF14FA6D4624627EBC9A91D9F910 /* Pods-ZYReformerKeysKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C83D80CA37F420BC086F148A651D24 /* Pods-ZYReformerKeysKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CC1289442B01C962646F8CB3D971A /* Pods-ZYReformerKeysKit_Tests-dummy.m */; };
+		C74863F624CC6A5AE5298ECFA3641C7A /* FFAuthorListReformerKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A177B60E725235CF5EFA6EDF0CE79B7 /* FFAuthorListReformerKeys.m */; };
+		DAB1D4F3E581F5B22C4A3F371BF721C3 /* FFSpecialListReformerKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6026D05EEE778CE52C2BE90081C41A /* FFSpecialListReformerKeys.m */; };
+		EC803447DA46E5612CE1270C75CB085D /* FFSpecialListReformerKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = EDFE46D16650EC668A23DD35C6147802 /* FFSpecialListReformerKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7522F67FA698F12641C2D7102E2BA95 /* Pods-ZYReformerKeysKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DDC5A1429BCB08327E3B5866B8C88E5 /* Pods-ZYReformerKeysKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8573E03EED65D1CC61E44883EDE2A070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4957B6B6FF394D9A432057E5BFFB3CE;
+			remoteInfo = "Pods-ZYReformerKeysKit_Example";
+		};
+		C7272C33EECFBC9E8112A2C33AF7F7D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1B89882C89989820CD9365B4BF3812;
+			remoteInfo = ZYReformerKeysKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FC5AD8BC6AA9A02A85EE61B03015D3 /* Pods-ZYReformerKeysKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYReformerKeysKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		07EA1C736B862E1425687D0FC0849DB6 /* Pods-ZYReformerKeysKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYReformerKeysKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		08202186AFF954B018F2A24D67FE021B /* ZYReformerKeysKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYReformerKeysKit-prefix.pch"; sourceTree = "<group>"; };
+		1F195CBF31DA7D90DFED302FBCCF2D8E /* ZYReformerKeysKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYReformerKeysKit.xcconfig; sourceTree = "<group>"; };
+		25138A5D686BACF5C1D0987D72DE1EAF /* Pods-ZYReformerKeysKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYReformerKeysKit_Example-dummy.m"; sourceTree = "<group>"; };
+		2738A12F22B5ED57ABF45CC533B02080 /* ZYReformerKeysKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYReformerKeysKit-umbrella.h"; sourceTree = "<group>"; };
+		29E3E667750DB42B8CF2F6408915C5D9 /* Pods-ZYReformerKeysKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYReformerKeysKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2F1DCDABB78E7DB8BCA89DE59F883044 /* ZYReformerKeysKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZYReformerKeysKit-Info.plist"; sourceTree = "<group>"; };
+		3EF7A2FD22EFFDDB578C84078846C671 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		49C9FABE8B8E637D75586E277BC76053 /* ZYReformerKeysKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZYReformerKeysKit.podspec; sourceTree = "<group>"; };
+		4DDC5A1429BCB08327E3B5866B8C88E5 /* Pods-ZYReformerKeysKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYReformerKeysKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		59C4DDF7EAA0B66A6906803AEE82C6DC /* Pods-ZYReformerKeysKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYReformerKeysKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B6026D05EEE778CE52C2BE90081C41A /* FFSpecialListReformerKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FFSpecialListReformerKeys.m; sourceTree = "<group>"; };
+		65A1D6E97FE1794BB90E6422A4B3782A /* Pods-ZYReformerKeysKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYReformerKeysKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		757EBAB02F33186EDCB746850C0348C7 /* Pods-ZYReformerKeysKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYReformerKeysKit_Tests.modulemap"; sourceTree = "<group>"; };
+		78EEC05FDF4369E29C803B9286ACC8F8 /* Pods_ZYReformerKeysKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYReformerKeysKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		796CC6BC405E7F25C987DE6C657F473C /* ZYReformerKeysKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYReformerKeysKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0CC1289442B01C962646F8CB3D971A /* Pods-ZYReformerKeysKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYReformerKeysKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		7D49DDFFBC83B1511A54B70AA386B81C /* Pods-ZYReformerKeysKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYReformerKeysKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8270E8B0F96F8EA516C3D3B68B453E63 /* Pods-ZYReformerKeysKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYReformerKeysKit_Example-Info.plist"; sourceTree = "<group>"; };
+		83C44A4213C8D86CFED9F0A61BFF6DAB /* FFAuthorListReformerKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFAuthorListReformerKeys.h; sourceTree = "<group>"; };
+		8877DF14FA6D4624627EBC9A91D9F910 /* Pods-ZYReformerKeysKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYReformerKeysKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8A177B60E725235CF5EFA6EDF0CE79B7 /* FFAuthorListReformerKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FFAuthorListReformerKeys.m; sourceTree = "<group>"; };
+		8B3D762A12733F85EE63CE5F24FE358E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZYReformerKeysKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A17120F6D8AB6F5078BCEEBD16DA00B /* ZYReformerKeysKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYReformerKeysKit-dummy.m"; sourceTree = "<group>"; };
+		9BA13287C42F6594B572AE982AD7D02A /* Pods-ZYReformerKeysKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYReformerKeysKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB484121D6E843F61AFF282BC1450B78 /* Pods-ZYReformerKeysKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYReformerKeysKit_Example.modulemap"; sourceTree = "<group>"; };
+		DFCDD558AC019F4DA963FA95F9215670 /* Pods_ZYReformerKeysKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYReformerKeysKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10638E0086A2AC2CD19BE468C328AF7 /* Pods-ZYReformerKeysKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYReformerKeysKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E325145C4E235650E93C5B6EE77422D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EA70E18865260FC12D2117BEC16FF96F /* ZYReformerKeysKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYReformerKeysKit.modulemap; sourceTree = "<group>"; };
+		EDFE46D16650EC668A23DD35C6147802 /* FFSpecialListReformerKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFSpecialListReformerKeys.h; sourceTree = "<group>"; };
+		EE8B1EDD58ED8C8A7DFA30C8B205CB16 /* Pods-ZYReformerKeysKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYReformerKeysKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F10E3C2760146B87BCE07A53B3FDB03E /* Pods-ZYReformerKeysKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYReformerKeysKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FCEC6BE8014818B2EC8B7DDAAE5908B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E8EB2121D42AE2FBC325C87A0E74E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586A36F9FA8D2C9B546366439427F0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76354E67043DCCC714BD1B9BD0243064 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2E6C4AE76989A5E5A7FE08B9BE85B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78ED5F997E6217EFE95F67FA2ABBB5FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1576075C1E82AD5D68160BD975EED0B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA70E18865260FC12D2117BEC16FF96F /* ZYReformerKeysKit.modulemap */,
+				1F195CBF31DA7D90DFED302FBCCF2D8E /* ZYReformerKeysKit.xcconfig */,
+				9A17120F6D8AB6F5078BCEEBD16DA00B /* ZYReformerKeysKit-dummy.m */,
+				2F1DCDABB78E7DB8BCA89DE59F883044 /* ZYReformerKeysKit-Info.plist */,
+				08202186AFF954B018F2A24D67FE021B /* ZYReformerKeysKit-prefix.pch */,
+				2738A12F22B5ED57ABF45CC533B02080 /* ZYReformerKeysKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZYReformerKeysKit";
+			sourceTree = "<group>";
+		};
+		26248B7EFDF98B93F79EB7F9C5CC0852 /* ZYReformerKeysKit */ = {
+			isa = PBXGroup;
+			children = (
+				8B3D762A12733F85EE63CE5F24FE358E /* ReplaceMe.m */,
+				A395BC16F84690B1760BD3A6F52746F6 /* Pod */,
+				F9001BBF25A1CB06823B159054DAC810 /* reformerKeys */,
+				1576075C1E82AD5D68160BD975EED0B6 /* Support Files */,
+			);
+			name = ZYReformerKeysKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		446334891B5CE3DCC8BE472D2880FD0C /* Pods-ZYReformerKeysKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CB484121D6E843F61AFF282BC1450B78 /* Pods-ZYReformerKeysKit_Example.modulemap */,
+				65A1D6E97FE1794BB90E6422A4B3782A /* Pods-ZYReformerKeysKit_Example-acknowledgements.markdown */,
+				07EA1C736B862E1425687D0FC0849DB6 /* Pods-ZYReformerKeysKit_Example-acknowledgements.plist */,
+				25138A5D686BACF5C1D0987D72DE1EAF /* Pods-ZYReformerKeysKit_Example-dummy.m */,
+				EE8B1EDD58ED8C8A7DFA30C8B205CB16 /* Pods-ZYReformerKeysKit_Example-frameworks.sh */,
+				8270E8B0F96F8EA516C3D3B68B453E63 /* Pods-ZYReformerKeysKit_Example-Info.plist */,
+				4DDC5A1429BCB08327E3B5866B8C88E5 /* Pods-ZYReformerKeysKit_Example-umbrella.h */,
+				29E3E667750DB42B8CF2F6408915C5D9 /* Pods-ZYReformerKeysKit_Example.debug.xcconfig */,
+				7D49DDFFBC83B1511A54B70AA386B81C /* Pods-ZYReformerKeysKit_Example.release.xcconfig */,
+			);
+			name = "Pods-ZYReformerKeysKit_Example";
+			path = "Target Support Files/Pods-ZYReformerKeysKit_Example";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B561BB0F0EC62BCF08B847887C498318 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D1C2A22575625075C720811BFCA6CF9F /* Products */,
+				B2A40C9CFCAC1183E8EBC8F732BA45FA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A395BC16F84690B1760BD3A6F52746F6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3EF7A2FD22EFFDDB578C84078846C671 /* LICENSE */,
+				E325145C4E235650E93C5B6EE77422D2 /* README.md */,
+				49C9FABE8B8E637D75586E277BC76053 /* ZYReformerKeysKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B2A40C9CFCAC1183E8EBC8F732BA45FA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				446334891B5CE3DCC8BE472D2880FD0C /* Pods-ZYReformerKeysKit_Example */,
+				B31E7C240CA3B2E6FE47407A1E4D85B3 /* Pods-ZYReformerKeysKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B31E7C240CA3B2E6FE47407A1E4D85B3 /* Pods-ZYReformerKeysKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				757EBAB02F33186EDCB746850C0348C7 /* Pods-ZYReformerKeysKit_Tests.modulemap */,
+				9BA13287C42F6594B572AE982AD7D02A /* Pods-ZYReformerKeysKit_Tests-acknowledgements.markdown */,
+				59C4DDF7EAA0B66A6906803AEE82C6DC /* Pods-ZYReformerKeysKit_Tests-acknowledgements.plist */,
+				7D0CC1289442B01C962646F8CB3D971A /* Pods-ZYReformerKeysKit_Tests-dummy.m */,
+				00FC5AD8BC6AA9A02A85EE61B03015D3 /* Pods-ZYReformerKeysKit_Tests-Info.plist */,
+				8877DF14FA6D4624627EBC9A91D9F910 /* Pods-ZYReformerKeysKit_Tests-umbrella.h */,
+				E10638E0086A2AC2CD19BE468C328AF7 /* Pods-ZYReformerKeysKit_Tests.debug.xcconfig */,
+				F10E3C2760146B87BCE07A53B3FDB03E /* Pods-ZYReformerKeysKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZYReformerKeysKit_Tests";
+			path = "Target Support Files/Pods-ZYReformerKeysKit_Tests";
+			sourceTree = "<group>";
+		};
+		B561BB0F0EC62BCF08B847887C498318 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26248B7EFDF98B93F79EB7F9C5CC0852 /* ZYReformerKeysKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1C2A22575625075C720811BFCA6CF9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFCDD558AC019F4DA963FA95F9215670 /* Pods_ZYReformerKeysKit_Example.framework */,
+				78EEC05FDF4369E29C803B9286ACC8F8 /* Pods_ZYReformerKeysKit_Tests.framework */,
+				796CC6BC405E7F25C987DE6C657F473C /* ZYReformerKeysKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9001BBF25A1CB06823B159054DAC810 /* reformerKeys */ = {
+			isa = PBXGroup;
+			children = (
+				83C44A4213C8D86CFED9F0A61BFF6DAB /* FFAuthorListReformerKeys.h */,
+				8A177B60E725235CF5EFA6EDF0CE79B7 /* FFAuthorListReformerKeys.m */,
+				EDFE46D16650EC668A23DD35C6147802 /* FFSpecialListReformerKeys.h */,
+				5B6026D05EEE778CE52C2BE90081C41A /* FFSpecialListReformerKeys.m */,
+			);
+			name = reformerKeys;
+			path = ZYReformerKeysKit/Classes/reformerKeys;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		082BBE0708EB92C4937827B2B2E34A63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9435DEFFDC38D25FC4FC25D98B304CB8 /* Pods-ZYReformerKeysKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E31DFF2C91718AE4ABAB15E5539D224 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7522F67FA698F12641C2D7102E2BA95 /* Pods-ZYReformerKeysKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55F9B533D73125ED18FF162A5F54B97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7435C1A278A3DBE0565CA5B6EF6C05E4 /* FFAuthorListReformerKeys.h in Headers */,
+				EC803447DA46E5612CE1270C75CB085D /* FFSpecialListReformerKeys.h in Headers */,
+				3CE4BA043DFAE84B9336F69072ED7E15 /* ZYReformerKeysKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EE9CFB9DEEB6EB786213AC7E6151A11 /* Pods-ZYReformerKeysKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2068884BDA87F3F043EE9A27B58EC828 /* Build configuration list for PBXNativeTarget "Pods-ZYReformerKeysKit_Tests" */;
+			buildPhases = (
+				082BBE0708EB92C4937827B2B2E34A63 /* Headers */,
+				83639123AF17D09B5FDAE5FA8D9801FC /* Sources */,
+				2FCEC6BE8014818B2EC8B7DDAAE5908B /* Frameworks */,
+				E7D1EA1DF307466223FC431021B81DE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				999C0EFB9EA4D121E16AF7417F370D30 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYReformerKeysKit_Tests";
+			productName = "Pods-ZYReformerKeysKit_Tests";
+			productReference = 78EEC05FDF4369E29C803B9286ACC8F8 /* Pods_ZYReformerKeysKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC1B89882C89989820CD9365B4BF3812 /* ZYReformerKeysKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7619429932DEA7D040CAB6EF6B6512A9 /* Build configuration list for PBXNativeTarget "ZYReformerKeysKit" */;
+			buildPhases = (
+				E55F9B533D73125ED18FF162A5F54B97 /* Headers */,
+				6B0087A6B1DCF2318420694C3886E870 /* Sources */,
+				5F2E6C4AE76989A5E5A7FE08B9BE85B6 /* Frameworks */,
+				02CC299B58299F2E6B66FAF2E059927F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYReformerKeysKit;
+			productName = ZYReformerKeysKit;
+			productReference = 796CC6BC405E7F25C987DE6C657F473C /* ZYReformerKeysKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4957B6B6FF394D9A432057E5BFFB3CE /* Pods-ZYReformerKeysKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96058DEBE3DDF50E8D11543A616A13B8 /* Build configuration list for PBXNativeTarget "Pods-ZYReformerKeysKit_Example" */;
+			buildPhases = (
+				8E31DFF2C91718AE4ABAB15E5539D224 /* Headers */,
+				CFA9F0E4DE54DDB4E16421C9AEED67CF /* Sources */,
+				586A36F9FA8D2C9B546366439427F0C4 /* Frameworks */,
+				FDCA0DB34B297763F2A8F7FB102932CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B887D52D08B376FAAAC857E7CF6AE6A /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYReformerKeysKit_Example";
+			productName = "Pods-ZYReformerKeysKit_Example";
+			productReference = DFCDD558AC019F4DA963FA95F9215670 /* Pods_ZYReformerKeysKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D1C2A22575625075C720811BFCA6CF9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4957B6B6FF394D9A432057E5BFFB3CE /* Pods-ZYReformerKeysKit_Example */,
+				2EE9CFB9DEEB6EB786213AC7E6151A11 /* Pods-ZYReformerKeysKit_Tests */,
+				CC1B89882C89989820CD9365B4BF3812 /* ZYReformerKeysKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02CC299B58299F2E6B66FAF2E059927F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D1EA1DF307466223FC431021B81DE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCA0DB34B297763F2A8F7FB102932CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B0087A6B1DCF2318420694C3886E870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74863F624CC6A5AE5298ECFA3641C7A /* FFAuthorListReformerKeys.m in Sources */,
+				DAB1D4F3E581F5B22C4A3F371BF721C3 /* FFSpecialListReformerKeys.m in Sources */,
+				4DD61E6FF2D1439A5AD6E38E851BDCB0 /* ReplaceMe.m in Sources */,
+				1A1CC5AE051FE83D5D442238BC84E025 /* ZYReformerKeysKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83639123AF17D09B5FDAE5FA8D9801FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C83D80CA37F420BC086F148A651D24 /* Pods-ZYReformerKeysKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA9F0E4DE54DDB4E16421C9AEED67CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B60BC17038B64D69EC254F781C8F021 /* Pods-ZYReformerKeysKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B887D52D08B376FAAAC857E7CF6AE6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZYReformerKeysKit;
+			target = CC1B89882C89989820CD9365B4BF3812 /* ZYReformerKeysKit */;
+			targetProxy = C7272C33EECFBC9E8112A2C33AF7F7D1 /* PBXContainerItemProxy */;
+		};
+		999C0EFB9EA4D121E16AF7417F370D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZYReformerKeysKit_Example";
+			target = D4957B6B6FF394D9A432057E5BFFB3CE /* Pods-ZYReformerKeysKit_Example */;
+			targetProxy = 8573E03EED65D1CC61E44883EDE2A070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		829AE5D6B95D866068DBDF78850C1955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F195CBF31DA7D90DFED302FBCCF2D8E /* ZYReformerKeysKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYReformerKeysKit/ZYReformerKeysKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYReformerKeysKit/ZYReformerKeysKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYReformerKeysKit/ZYReformerKeysKit.modulemap";
+				PRODUCT_MODULE_NAME = ZYReformerKeysKit;
+				PRODUCT_NAME = ZYReformerKeysKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91A1932DC43FE9C0227EA651E0B75881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F10E3C2760146B87BCE07A53B3FDB03E /* Pods-ZYReformerKeysKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYReformerKeysKit_Tests/Pods-ZYReformerKeysKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYReformerKeysKit_Tests/Pods-ZYReformerKeysKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		926E87367A6073E07BE58AA5E49F109E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F195CBF31DA7D90DFED302FBCCF2D8E /* ZYReformerKeysKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYReformerKeysKit/ZYReformerKeysKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYReformerKeysKit/ZYReformerKeysKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYReformerKeysKit/ZYReformerKeysKit.modulemap";
+				PRODUCT_MODULE_NAME = ZYReformerKeysKit;
+				PRODUCT_NAME = ZYReformerKeysKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92E62FC67B2B20CACA64D78E883A6402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E3E667750DB42B8CF2F6408915C5D9 /* Pods-ZYReformerKeysKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYReformerKeysKit_Example/Pods-ZYReformerKeysKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYReformerKeysKit_Example/Pods-ZYReformerKeysKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F13CC132BBEFF09FD3ACE8137DD4E5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D49DDFFBC83B1511A54B70AA386B81C /* Pods-ZYReformerKeysKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYReformerKeysKit_Example/Pods-ZYReformerKeysKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYReformerKeysKit_Example/Pods-ZYReformerKeysKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE2F04E08A81D7AC784B7E960E645A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10638E0086A2AC2CD19BE468C328AF7 /* Pods-ZYReformerKeysKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYReformerKeysKit_Tests/Pods-ZYReformerKeysKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYReformerKeysKit_Tests/Pods-ZYReformerKeysKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2068884BDA87F3F043EE9A27B58EC828 /* Build configuration list for PBXNativeTarget "Pods-ZYReformerKeysKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2F04E08A81D7AC784B7E960E645A85 /* Debug */,
+				91A1932DC43FE9C0227EA651E0B75881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7619429932DEA7D040CAB6EF6B6512A9 /* Build configuration list for PBXNativeTarget "ZYReformerKeysKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829AE5D6B95D866068DBDF78850C1955 /* Debug */,
+				926E87367A6073E07BE58AA5E49F109E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96058DEBE3DDF50E8D11543A616A13B8 /* Build configuration list for PBXNativeTarget "Pods-ZYReformerKeysKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E62FC67B2B20CACA64D78E883A6402 /* Debug */,
+				F13CC132BBEFF09FD3ACE8137DD4E5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
